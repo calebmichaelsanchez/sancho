@@ -200,8 +200,15 @@ footer {
   align-items: center;
 }
 .show {
-  width: 50%;
+  width: 100%;
   padding: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .show {
+    width: 50%;
+    padding: 1rem;
+  } 
 }
 
 /* ------------------------ */
